@@ -1,0 +1,7 @@
+@font-face {
+    font-family: appFont;
+    src: url("../../fonts/KIN668.TTF");
+   }
+#headerContainer h1{
+    font:appFont;
+}

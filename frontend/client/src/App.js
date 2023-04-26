@@ -1,8 +1,8 @@
 import React from "react"
-
+import LandingPage from "./pages/authPages/LandingPage"
 const App = ()=>{
     return(
-        <div>testing it</div>
+        <LandingPage/>
     )
 }
 export default App
