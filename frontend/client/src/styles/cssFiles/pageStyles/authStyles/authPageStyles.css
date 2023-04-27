@@ -43,3 +43,15 @@
 #introContainer{
   grid-column: 1/2;
 }
+
+/*******profile page*****/
+#profilePageContainer{
+  height: 100vh;
+  font-family: monospace;
+  width:100%; 
+  background:linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.603)),
+  url("../../../img/backgroundImgs/burgerBG.jpg") no-repeat center / cover;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  color:aliceblue;
+}

@@ -1,9 +1,8 @@
 import React, {useState, useContext} from "react"
 import AuthForm from "../../components/authComponents/AuthForm"
-
 import Header from "../../components/globalComponents/Header"
 import {UserContext} from "../../context/UserProvider"
-import "../../styles/cssFiles/pageStyles/authStyles/landingPage.css"
+import "../../styles/cssFiles/pageStyles/authStyles/authPageStyles.css"
 const credentials = {
     username: "",
     password: ""

@@ -1,8 +1,8 @@
 import React from "react"
-import LandingPage from "./pages/authPages/LandingPage"
+import ProfilePage from "./pages/authPages/ProfilePage"
 const App = ()=>{
     return(
-        <LandingPage/>
+        <ProfilePage/>
     )
 }
 export default App
