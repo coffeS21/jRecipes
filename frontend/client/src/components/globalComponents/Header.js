@@ -1,7 +1,7 @@
 import React from "react"
 export default function TripleHeader(props){
     return(
-        <div id="headerContainer">
+        <div>
         <h1 className="header">{props.header}</h1>
         </div>
     )

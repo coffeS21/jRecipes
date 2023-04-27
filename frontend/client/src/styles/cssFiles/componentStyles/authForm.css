@@ -1,0 +1,68 @@
+
+
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box; 
+ }
+ #authFormContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+  }
+
+
+  input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    color: rgba(255,255,255,.8);
+    font-family: monospace;
+    font-size: 30px;
+    padding: 10px 5px 5px;
+    text-align: center;
+    width: 350px;
+    height:80px;
+  }
+    input:focus{
+    outline:none;
+    caret-color: rgba(255,255,255,.8);
+  }
+
+    label{
+    text-align:center;
+    color: rgba(255,255,255,.8);
+    font-family: monospace;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom:20px;
+
+  }
+  .chalk-border {
+    border:10px solid rgba(255,255,255,.8);
+    border-image: url("https://www.unicefusa.org/sites/default/files/answer-box.png") 10;
+  }
+  button {
+    border-color:transparent;
+    background-color: transparent;
+    font-family: monospace;
+    font-size:30px;
+    color: rgba(255,255,255,.8);
+  }
+
+  .chalk-border:before {
+    content: '';
+  }
+  #authFormButtonContainer{
+    padding-top: 50px;
+  } 
+  button:active{
+    color: var(--pink)
+  }
+  button:hover{
+  box-shadow: 1px 1px 10px 1px;
+
+  }
